@@ -1,0 +1,62 @@
+urls:
+  api: "https://devnet-api.multiversx.com"
+  swagger:
+    - "https://devnet-tools.multiversx.com/xnames"
+    - "https://devnet-microservice.multiversx.com"
+    - "https://testnet-microservice.multiversx.com"
+    - "https://microservice.multiversx.com"
+  # mongodb: "mongodb://mongo:4qp9p1E5W1PWgpWgCd4j@containers-us-west-166.railway.app:7560"
+  # mongodb: " mongodb+srv://user:pass@devnet-mongo-db-54356310.mongo.ondigitalocean.com/devnet-xnames-api?authSource=admin"
+  mongodb: "mongodb+srv://mongodb:SluuHQHDCryUmFiJ@cluster-xnames-service.4xo14at.mongodb.net/"
+
+
+postgres:
+  host: ''
+  port: ''
+  username: ''
+  password: ''
+  database: ''
+
+redis:
+  host: "xnames-redis-stg.uxx0wf.ng.0001.euw2.cache.amazonaws.com"
+  port: 6379
+  username: ""
+  password: ""
+
+
+#redis:
+#  host: "containers-us-west-7.railway.app"
+#  port: 6577
+#  username: "default"
+#  password: "KisEaoqw4pZKqg1UurpK"
+features:
+  publicApi:
+    enabled: true
+    port: 3000
+  privateApi:
+    enabled: true
+    port: 4000
+  cacheWarmer:
+    enabled: true
+    port: 5201
+  transactionProcessor:
+    enabled: true
+    port: 5202
+    maxLookBehind: 100
+  queueWorker:
+    enabled: true
+    port: 8000
+  keepAliveAgent:
+    enabled: true
+nativeAuth:
+  maxExpirySeconds:
+  acceptedOrigins:
+    - utils.multiversx.com
+security:
+  admins:
+rateLimiterSecret:
+keepAliveTimeout:
+  downstream: 61000
+  upstream: 60000
+useCachingInterceptor: false
+contractAddress: erd1qqqqqqqqqqqqqpgqev7w2j8e54tvnzc2rtj6v7mxqdy5lam0vycseduvnh
