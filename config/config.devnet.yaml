@@ -1,10 +1,10 @@
 urls:
-  api: "https://devnet-api.multiversx.com"
+  api: "https://devnet-api."".com"
   swagger:
-    - "https://devnet-tools.multiversx.com/xnames"
-    - "https://devnet-microservice.multiversx.com"
-    - "https://testnet-microservice.multiversx.com"
-    - "https://microservice.multiversx.com"
+    - "https://devnet-tools."".com/SubNS"
+    - "https://devnet-microservice."".com"
+    - "https://testnet-microservice."".com"
+    - "https://microservice."".com"
   # mongodb: "mongodb://mongo:4qp9p1E5W1PWgpWgCd4j@containers-us-west-166.railway.app:7560"
   # mongodb: " mongodb+srv://user:pass@devnet-mongo-db-54356310.mongo.ondigitalocean.com/devnet-xnames-api?authSource=admin"
   mongodb: "mongodb+srv://mongodb:SluuHQHDCryUmFiJ@cluster-xnames-service.4xo14at.mongodb.net/"
