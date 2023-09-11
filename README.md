@@ -1,6 +1,6 @@
-# mx-xnames-service
+# Sub-Strate-Name Service
 
-Microservice for xNames
+Microservice for Substrate
 
 ## Quick start
 
