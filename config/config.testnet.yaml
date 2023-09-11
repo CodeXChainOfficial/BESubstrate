@@ -1,9 +1,9 @@
 urls:
-  api: 'https://testnet-api.multiversx.com'
+  api: 'https://testnet-api."".com'
   swagger:
-    - 'https://testnet-microservice.multiversx.com'
-    - 'https://devnet-microservice.multiversx.com'
-    - 'https://microservice.multiversx.com'
+    - 'https://testnet-microservice."".com'
+    - 'https://devnet-microservice."".com'
+    - 'https://microservice."".com'
   redis: '127.0.0.1'
 database:
   host: 'localhost'
