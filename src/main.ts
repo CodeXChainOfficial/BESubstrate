@@ -1,4 +1,4 @@
-import { NativeAuthGuard } from '@multiversx/sdk-nestjs-auth';
+import { NativeAuthGuard } from '@""/sdk-nestjs-auth';
 import { Logger, NestInterceptor } from '@nestjs/common';
 import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
@@ -15,9 +15,9 @@ import { TransactionProcessorModule } from './crons/transaction.processor/transa
 import { PrivateAppModule } from './private.app.module';
 import { PublicAppModule } from './public.app.module';
 import { SocketAdapter } from './websockets/socket.adapter';
-import { CacheService, CachingInterceptor } from '@multiversx/sdk-nestjs-cache';
-import { LoggingInterceptor, MetricsService } from '@multiversx/sdk-nestjs-monitoring';
-import { LoggerInitializer } from '@multiversx/sdk-nestjs-common';
+import { CacheService, CachingInterceptor } from '@""/sdk-nestjs-cache';
+import { LoggingInterceptor, MetricsService } from '@""/sdk-nestjs-monitoring';
+import { LoggerInitializer } from '@""/sdk-nestjs-common';
 
 async function bootstrap() {
   const publicApp = await NestFactory.create(PublicAppModule);
